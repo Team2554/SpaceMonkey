@@ -38,6 +38,7 @@ public class Robot extends TimedRobot {
   public static DriveTrain driveTrain = new DriveTrain();
   public static BackClimbActuator backClimbActuator = new BackClimbActuator();
   public static FrontClimbActuator frontClimbActuator = new FrontClimbActuator();
+  public static Vision vision = new Vision();
 
   public static OI m_oi = new OI();
 
