@@ -9,6 +9,7 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.Victor;
+import edu.wpi.first.wpilibj.PWMVictorSPX;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import frc.robot.RobotMap;
 
@@ -19,7 +20,7 @@ public class FrontClimbActuator extends Subsystem {
   // Put methods for controlling this subsystem
   // here. Call these from Commands.
 
-  public Victor frontClimbActuator = new Victor(RobotMap.CLIMB_ACTUATORS_IDS[0]);
+  public PWMVictorSPX frontClimbActuator = new PWMVictorSPX(RobotMap.CLIMB_ACTUATORS_IDS[0]);
   public static DigitalInput limitSwitchFront = new DigitalInput(2);
 
   @Override

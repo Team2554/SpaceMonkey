@@ -34,24 +34,24 @@ public class RobotMap {
 
   // Ball Shooter Motors IDs
   // Two Motors (1 for each side)
-  public final static int[] BALL_SHOOTER_MOTOR_IDS = { 2, 5 };
+  public final static int[] BALL_SHOOTER_MOTOR_IDS = { 3, 5 };
 
   // Shooter Actuator ID
   // This Actuator pushes out the ball
-  public final static int BALL_SHOOTER_ACTUATOR_ID = 3;
+  public final static int BALL_SHOOTER_ACTUATOR_ID = 10;
 
   // Winch Actuator ID
   // This actuator controls the angle of the shooting mechanismw
-  public final static int WINCH_MOTOR_ID = 9;
+  public final static int WINCH_MOTOR_ID = 1;
 
   // Hatch Actuator ID
   // This allows for the dropping of the hatches
-  public final static int HATCH_ACTUATOR_ID = 10;
+  public final static int HATCH_ACTUATOR_ID = 11;
 
   // Climb Actuator IDS
   // Two Actuators are needed to climb with the robot
-  public final static int[] CLIMB_ACTUATORS_IDS = { 7, 4 };
+  public final static int[] CLIMB_ACTUATORS_IDS = { 2, 4 };
 
-  public final static int SEAT_MOTOR_ID = 8;//Victor SPX new controller
+  public final static int SEAT_MOTOR_ID = 6;//Victor SPX new controller
 
 }
