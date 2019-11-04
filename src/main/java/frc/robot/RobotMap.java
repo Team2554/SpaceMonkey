@@ -7,8 +7,6 @@
 
 package frc.robot;
 
-import edu.wpi.first.wpilibj.drive.MecanumDrive;
-
 /**
  * The RobotMap is a mapping from the ports sensors and actuators are wired into
  * to a variable name. This provides flexibility changing wiring, makes checking
@@ -36,7 +34,7 @@ public class RobotMap {
 
   // Ball Shooter Motors IDs
   // Two Motors (1 for each side)
-  public final static int[] BALL_SHOOTER_MOTOR_IDS = { 5, 7 };
+  public final static int[] BALL_SHOOTER_MOTOR_IDS = { 2, 5 };
 
   // Shooter Actuator ID
   // This Actuator pushes out the ball
@@ -48,12 +46,12 @@ public class RobotMap {
 
   // Hatch Actuator ID
   // This allows for the dropping of the hatches
-  public final static int HATCH_ACTUATOR_ID = 2;
+  public final static int HATCH_ACTUATOR_ID = 10;
 
   // Climb Actuator IDS
   // Two Actuators are needed to climb with the robot
-  public final static int[] CLIMB_ACTUATORS_IDS = { 8, 4 };
+  public final static int[] CLIMB_ACTUATORS_IDS = { 7, 4 };
 
-  public final static int SEAT_MOTOR_ID = 6;
+  public final static int SEAT_MOTOR_ID = 8;//Victor SPX new controller
 
 }
